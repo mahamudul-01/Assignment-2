@@ -22,5 +22,33 @@
     .nav-container{
         gap: 0;
     }
+    .input-container{
+        flex-direction: column;
+        gap: 10px;
+    }
+    .banner-container h1{
+        color: #FFF;
     
+    
+    font-size: 1.8rem;
+    
+    font-weight: 600;
+    
+    }
+    .banner-container{
+        gap: 20px;
+        
+    }
+    .banner-container p{
+      
+    
+    font-size: 14px;
+    
+    }
+    .popular-tour{
+        flex-direction: column;
+    }
+    .popular-tour .popular-img img{
+        width: 100%;
+    }
 }
