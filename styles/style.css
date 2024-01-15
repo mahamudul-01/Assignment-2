@@ -40,9 +40,14 @@ header {
 .nav-container .nav-title span {
   color: #ff5400;
 }
+.nav-content{
+    display: flex;
+    width: 50%;
+    justify-content: space-between;
+}
 .nav-link {
   
-  width: 50%;
+  width: 90%;
   display: flex;
   gap: 2%;
   justify-content: space-between;
@@ -53,4 +58,8 @@ header {
   text-align: center;
   font-size: 18px;
   font-weight: 400;
+}
+.nav-content .menu{
+    font-weight: 800;
+    visibility: hidden;
 }
