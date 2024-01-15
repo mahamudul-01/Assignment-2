@@ -1,54 +1,55 @@
-@media screen and (max-width:600px) {
-    .nav-link {
-        visibility: hidden;
-    }
-    .nav-content .menu{
-        visibility: visible;
-       
-    }
-    .nav-content {
-        text-align: left;
-    }
-    .nav-title{
-        width: 80%;
-        gap: 0;
-    }
-    .nav-content{
-        width: 20%;
-    }
-    .nav-link{
-        width: 0;
-    }
-    .nav-container{
-        gap: 0;
-    }
-    .input-container{
-        flex-direction: column;
-        gap: 10px;
-    }
-    .banner-container h1{
-        color: #FFF;
-    
-    
+@media screen and (max-width: 600px) {
+  .nav-link {
+    visibility: hidden;
+  }
+  .nav-content .menu {
+    visibility: visible;
+  }
+  .nav-content {
+    text-align: left;
+  }
+  .nav-title {
+    width: 80%;
+    gap: 0;
+  }
+  .nav-content {
+    width: 20%;
+  }
+  .nav-link {
+    width: 0;
+  }
+  .nav-container {
+    gap: 0;
+  }
+  .input-container {
+    flex-direction: column;
+    gap: 10px;
+  }
+  .banner-container h1 {
+    color: #fff;
+
     font-size: 1.8rem;
-    
+
     font-weight: 600;
-    
-    }
-    .banner-container{
-        gap: 20px;
-        
-    }
-    .banner-container p{
-      
-    
+  }
+  .banner-container {
+    gap: 20px;
+  }
+  .banner-container p {
     font-size: 14px;
-    
-    }
-    .popular-tour{
-        flex-direction: column;
-    }
-    .popular-tour .popular-img img{
-        width: 100%;
-    }
+  }
+  .popular-tour {
+    flex-direction: column;
+  }
+  .popular-tour .popular-img img {
+    width: 100%;
+  }
+  .collage-1,
+  .collage-2,
+  .collage-3 {
+    flex-direction: column;
+  }
+  .collage-1 .img-1, .collage-1 .img-2,.collage-2 .img-1 ,.collage-2 .img-2,.collage-2 .img-3,.collage-3 .img-1,.collage-3 .img-2{
+    width: 100%;
+  }
 }

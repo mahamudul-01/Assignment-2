@@ -12,15 +12,15 @@ header {
   margin-top: 50px;
   /* border: 2px solid blue; */
 }
-.btn-primary{
-    padding: 10px 15px;
-    background-color: #FF5400;
-    border: 0;
-    border-radius: 10px;
-    text-align: center;
-    color: #FFF;
-    font-size: 1.2rem;
-    font-weight: 800;
+.btn-primary {
+  padding: 10px 15px;
+  background-color: #ff5400;
+  border: 0;
+  border-radius: 10px;
+  text-align: center;
+  color: #fff;
+  font-size: 1.2rem;
+  font-weight: 800;
 }
 /* nav section styles */
 nav {
@@ -102,83 +102,189 @@ nav {
   align-items: center;
   gap: 50px;
 }
-.banner-container h1{
-    color: #FFF;
+.banner-container h1 {
+  color: #fff;
 
+  font-size: 4rem;
 
-font-size: 4rem;
-
-font-weight: 800;
-
+  font-weight: 800;
 }
-.banner-container p{
-    color: #FFF;
+.banner-container p {
+  color: #fff;
 
-text-align: center;
+  text-align: center;
 
-font-size: 1rem;
-font-style: normal;
-font-weight: 400;
-line-height: 26px; 
+  font-size: 1rem;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 26px;
 }
-.input-container{
-    display: flex;
-    gap: 20px;
-    background-image: linear-gradient(-45deg, rgba(213, 213, 213, 0.493), rgba(219, 210, 210, 0.491));
-    padding: 16px;
-    border-radius: 10px;
+.input-container {
+  display: flex;
+  gap: 20px;
+  background-image: linear-gradient(
+    -45deg,
+    rgba(213, 213, 213, 0.493),
+    rgba(219, 210, 210, 0.491)
+  );
+  padding: 16px;
+  border-radius: 10px;
 }
-.input-field{
-    border-radius: 10px;
-    border: 0;
-    padding: 15px 10px;
-    color: rgba(19, 19, 24, 0.50);
-    text-align: center;
-    font-size: 1rem;
+.input-field {
+  border-radius: 10px;
+  border: 0;
+  padding: 15px 10px;
+  color: rgba(19, 19, 24, 0.5);
+  text-align: center;
+  font-size: 1rem;
 }
-.btn-find{
-    border-radius: 10px;
-    background: #FF5400;
-    border: 0;
-    padding: 15px 50px;
-    color: white;
-    text-align: center;
-    font-size: 1rem;
+.btn-find {
+  border-radius: 10px;
+  background: #ff5400;
+  border: 0;
+  padding: 15px 50px;
+  color: white;
+  text-align: center;
+  font-size: 1rem;
 }
 /* popular tour section section styles */
-.popular-tour{
-    
-    width: 81%;
+.popular-tour {
+  width: 81%;
   max-width: 1170px;
   margin: 0 auto;
   display: flex;
-  gap:50px ;
+  gap: 50px;
   align-items: center;
+  margin-bottom: 100px;
 }
-.popular-text{
-    display: flex;
-    flex-direction: column;
-    gap: 24px;
+.popular-text {
+  display: flex;
+  flex-direction: column;
+  gap: 24px;
 }
-.popular-text h1{
-    color: #131318;
+.popular-text h1 {
+  color: #131318;
 
+  font-size: 4rem;
 
-
-font-size: 4rem;
-
-font-weight: 800;
-
+  font-weight: 800;
 }
-.popular-text p,li{
-    color: rgba(19, 19, 24, 0.70);
+.popular-text p,
+li {
+  color: rgba(19, 19, 24, 0.7);
 
+  font-size: 1rem;
 
-font-size: 1rem;
+  font-weight: 400;
+  line-height: 25px;
+}
+/* destination section styles */
+.destination {
+  width: 81%;
+  max-width: 1170px;
+  margin: 0 auto;
+}
+.destination .destination-text {
+  width: 60%;
+  margin: 0 auto;
+  display: flex;
+  flex-direction: column;
+  gap: 24px;
+  margin-bottom: 48px;
+}
+.destination .destination-text h1 {
+  color: #131318;
 
-font-weight: 400;
-line-height: 25px; 
+  text-align: center;
+
+  font-size: 2.5rem;
+
+  font-weight: 800;
+}
+.destination .destination-text p {
+  color: rgba(19, 19, 24, 0.7);
+
+  text-align: center;
+
+  font-size: 1rem;
+
+  font-weight: 400;
+  line-height: 26px;
 }
 
+.collage-1,
+.collage-2,
+.collage-3 {
+  display: flex;
+  gap: 24px;
+  margin-bottom: 24px;
+}
+.collage-1 .img-1 {
+  width: 50%;
+  height: 300px;
+  background-image: url("../images/Rectangle\ 5.png");
+  border-radius: 15px;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.collage-1 .img-2 {
+  width: 50%;
+  height: 300px;
+  background-image: url("../images/Rectangle\ 8.png");
+  border-radius: 15px;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.collage-2 .img-1 {
+  width: 30%;
+  height: 300px;
+  background-image: url("../images/Rectangle\ 6.png");
+  border-radius: 15px;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.collage-2 .img-2 {
+  width: 40%;
+  height: 300px;
+  background-image: url("../images/Rectangle\ 7.png");
+  background-repeat: no-repeat;
+  border-radius: 15px;
+  background-size: cover;
+}
+.collage-2 .img-3 {
+  width: 30%;
+  height: 300px;
+  background-image: url("../images/Rectangle\ 9.png");
+  border-radius: 15px;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.collage-3 .img-1 {
+  width: 40%;
+  height: 300px;
+  background-image: url("../images/Rectangle\ 11.png");
+  border-radius: 15px;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.collage-3 .img-2 {
+  width: 60%;
+  height: 300px;
+  background-image: url("../images/Rectangle\ 10.png");
+  border-radius: 15px;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.middle {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+.destination-images h3 {
+  color: #fff;
 
+  font-size: 1.75rem;
 
+  font-weight: 800;
+}
