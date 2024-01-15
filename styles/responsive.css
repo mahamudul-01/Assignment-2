@@ -8,6 +8,9 @@
   .nav-content {
     text-align: left;
   }
+  .btn-find {
+    padding-right: 50px;
+  }
   .nav-title {
     width: 80%;
     gap: 0;
@@ -49,7 +52,13 @@
   .collage-3 {
     flex-direction: column;
   }
-  .collage-1 .img-1, .collage-1 .img-2,.collage-2 .img-1 ,.collage-2 .img-2,.collage-2 .img-3,.collage-3 .img-1,.collage-3 .img-2{
+  .collage-1 .img-1,
+  .collage-1 .img-2,
+  .collage-2 .img-1,
+  .collage-2 .img-2,
+  .collage-2 .img-3,
+  .collage-3 .img-1,
+  .collage-3 .img-2 {
     width: 100%;
   }
 }
