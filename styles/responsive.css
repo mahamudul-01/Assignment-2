@@ -119,4 +119,17 @@
   .video-content, .video-text{
     width: 100%;
   }
+  .newsletter{
+    flex-direction: column;
+  }
+  .subscribe, .save-up{
+    width: 100%;
+  }
+  .save-up{
+    height: 300px;
+  }
+  .footer-title, .footer-pera, .footer-icon-div, .copy{
+    width: 80%;
+  }
+  
 }
