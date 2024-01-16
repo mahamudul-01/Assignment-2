@@ -1,4 +1,5 @@
 @media screen and (max-width: 600px) {
+  
   .nav-link {
     visibility: hidden;
   }
@@ -44,6 +45,9 @@
   .popular-tour {
     flex-direction: column;
   }
+  .destination .destination-text h1{
+    font-size: 1.2rem;
+  }
   .popular-tour .popular-img img {
     width: 100%;
   }
@@ -59,6 +63,60 @@
   .collage-2 .img-3,
   .collage-3 .img-1,
   .collage-3 .img-2 {
+    width: 100%;
+  }
+  .choose-cards{
+    flex-direction: column;
+  }
+  .choose-cards .card-1, .card-2{
+    width: 90%;
+  }
+  .choose-cards-2 .card-1{
+    width: 90%;
+    margin-right: 20px;
+  }
+  .choose .chose-text h1{
+    font-size: 1.2rem;
+  }
+  .choose .chose-text p{
+    font-size: 14px;
+  }
+  .deals-banner-1, .deals-banner-2,.deals-banner-3{
+    margin-bottom: 14px;
+    
+    
+    border-radius: 16px;
+    align-items: center;
+    justify-content: end;
+    display: flex;
+    flex-direction: column;
+    
+    padding-top: 150px;
+  }
+  .deals-card{
+    width: 85%;
+    margin-bottom: -30px;
+  }
+  .icons{
+    display: flex;
+    flex-wrap: wrap;
+  }
+  .deals-icon{
+    flex-basis: 100px;
+  }
+  .deals .deals-text p{
+    font-size: 14px;
+  }
+  .deals .deals-text h1{
+    font-size: 1.5rem;
+  }
+  .pkg button{
+    display: none;
+  }
+  .video-clip{
+    flex-direction: column;
+  }
+  .video-content, .video-text{
     width: 100%;
   }
 }
