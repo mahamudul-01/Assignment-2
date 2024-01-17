@@ -1,29 +1,26 @@
 @media screen and (max-width: 600px) {
-  
   .nav-link {
     visibility: hidden;
   }
-  
+
   .nav-content {
     text-align: left;
     display: none;
-    
   }
-  .nav-container{
-    position: relative;
-  }
-  .menu-bar{
-    position: absolute;
+  .menu-bar {
     visibility: visible;
-    left: 440px;
   }
+
   .btn-find {
     padding-right: 50px;
   }
   .nav-title {
-    width: 80%;
-    gap: 0;
-    position: relative;
+    width: 100%;
+    gap: 20px;
+    justify-content: space-between;
+  }
+  .nav-title h1 {
+    font-size: 1.5rem;
   }
   .nav-content {
     width: 20%;
@@ -51,10 +48,21 @@
   .banner-container p {
     font-size: 14px;
   }
+  .popular-text h1 {
+    font-size: 1.2rem;
+  }
+  .popular-text {
+    width: 100%;
+  }
+  .popular-text p,
+  li {
+    font-size: 14px;
+    text-align: left;
+  }
   .popular-tour {
     flex-direction: column;
   }
-  .destination .destination-text h1{
+  .destination .destination-text h1 {
     font-size: 1.2rem;
   }
   .popular-tour .popular-img img {
@@ -74,71 +82,67 @@
   .collage-3 .img-2 {
     width: 100%;
   }
-  .choose-cards{
-    flex-direction: column;
-  }
-  .choose-cards .card-1, .card-2{
-    width: 90%;
-  }
-  .choose-cards-2 .card-1{
-    width: 90%;
-    margin-right: 20px;
-  }
-  .choose .chose-text h1{
+  .chose-text h2 {
     font-size: 1.2rem;
   }
-  .choose .chose-text p{
+  .chose-text p {
     font-size: 14px;
   }
-  .deals-banner-1, .deals-banner-2,.deals-banner-3{
+
+  .deals-banner-1,
+  .deals-banner-2,
+  .deals-banner-3 {
     margin-bottom: 14px;
-    
-    
+
     border-radius: 16px;
     align-items: center;
     justify-content: end;
     display: flex;
     flex-direction: column;
-    
+
     padding-top: 150px;
   }
-  .deals-card{
+  .deals-card {
     width: 85%;
     margin-bottom: -30px;
   }
-  .icons{
+  .icons {
     display: flex;
     flex-wrap: wrap;
   }
-  .deals-icon{
+  .deals-icon {
     flex-basis: 100px;
   }
-  .deals .deals-text p{
+  .deals .deals-text p {
     font-size: 14px;
   }
-  .deals .deals-text h1{
+  .deals .deals-text h1 {
     font-size: 1.5rem;
   }
-  .pkg button{
+  .pkg button {
     display: none;
   }
-  .video-clip{
+  .video-clip {
     flex-direction: column;
   }
-  .video-content, .video-text{
+  .video-content,
+  .video-text {
     width: 100%;
   }
-  .newsletter{
+  .newsletter {
     flex-direction: column;
   }
-  .subscribe, .save-up{
+  .subscribe,
+  .save-up {
     width: 100%;
   }
-  .save-up{
+  .save-up {
     height: 300px;
   }
-  .footer-title, .footer-pera, .footer-icon-div, .copy{
+  .footer-title,
+  .footer-pera,
+  .footer-icon-div,
+  .copy {
     width: 80%;
   }
-  
 }

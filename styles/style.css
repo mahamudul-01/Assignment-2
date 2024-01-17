@@ -36,14 +36,21 @@ nav {
   
 }
 
-.menu-bar i {
+.menu-bar {
   font-size: 2rem;
+  visibility: hidden;
+  
+}
+.menu-bar span i{
+  color: #131318;
 }
 .nav-title {
   display: flex;
   width: 50%;
 
   align-items: center;
+  /* justify-content: space-between; */
+
 
   
 }
@@ -329,95 +336,102 @@ li {
   font-weight: 800;
 }
 /* Chose us section styles */
-.choose {
+.chose-text-container{
   width: 81%;
   max-width: 1170px;
   margin: 0 auto;
-  margin-bottom: 100px;
-}
-.choose .chose-text {
-  width: 60%;
-  margin: 0 auto;
+  
   margin-bottom: 50px;
 }
-.choose .chose-text h1 {
+.chose-text{
+  width: 60%;
+  margin: 0 auto;
+  
+}
+.chose-text h2{
+  margin-bottom: 20px;
+  color: #131318;
+text-align: center;
+
+font-size: 2.5rem;
+font-style: normal;
+font-weight: 800;
+line-height: normal;
+}
+.chose-text p{
+  color: rgba(19, 19, 24, 0.70);
+text-align: center;
+
+font-size: 1rem;
+font-style: normal;
+font-weight: 400;
+line-height: 26px; /* 162.5% */
+}
+ .choose{
+  
+  width: 81%;
+  max-width: 1170px;
+  margin: 0 auto;
+  
+  
+  display: flex;
+  flex-wrap: wrap;
+  gap: 24px;
+  justify-content: center ;
+ }
+ .choose-card{
+  padding: 50px;
+  border: 2px dashed red;
+  flex-basis: 450px;
+  box-shadow: 0px 25px 20px -20px rgba(0, 0, 0, 0.45), 25px 0 20px -20px rgba(0, 0, 0, 0.45);
+ 
+ }
+ .choose-card-bkgrnd-1{
+  border-radius: 16px;
+  border: 1px solid rgba(251, 181, 99, 0.20);
+  background: rgba(251, 181, 99, 0.05);
+ }
+ .choose-card-bkgrnd-2{
+  border-radius: 16px;
+  border: 1px solid rgba(41, 206, 246, 0.20);
+  background: rgba(41, 206, 246, 0.05);
+ }
+ .choose-card-bkgrnd-3{
+  border-radius: 16px;
+  border: 1px solid rgba(233, 68, 68, 0.20);
+  background: rgba(233, 68, 68, 0.05);
+ }
+ .chose-card-content{
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+ }
+ .chose-card-content h3{
   color: #131318;
 
-  text-align: center;
 
-  font-size: 2.5rem;
-  font-style: normal;
-  font-weight: 800;
-  line-height: normal;
-  margin-bottom: 20px;
-}
-.choose-cards p{
+
+font-size: 1.5rem;
+font-style: normal;
+font-weight: 800;
+line-height: normal;
+ }
+ .chose-card-content p{
   color: #5A5A5D;
 
-font-family: Mulish;
-font-size: 16px;
+
+font-size: 1rem;
 font-style: normal;
 font-weight: 400;
 line-height: 26px; /* 162.5% */
 text-align: left;
-}
-.choose-cards-2 p{
-  color: #5A5A5D;
-
-font-family: Mulish;
-font-size: 16px;
-font-style: normal;
-font-weight: 400;
-line-height: 26px; /* 162.5% */
-text-align: left;
-}
-.choose .chose-text p {
-  color: rgba(19, 19, 24, 0.7);
-
-  text-align: center;
-
-  font-size: 1rem;
-  font-style: normal;
-  font-weight: 400;
-}
-.choose-cards {
-  display: flex;
-  gap: 24px;
-  margin-bottom: 24px;
-}
-.card-1 {
-  width: 50%;
-
-  padding: 50px;
-  display: flex;
-  flex-direction: column;
-  gap: 20px;
-  background: rgba(251, 181, 99, 0.05);
-  border-radius: 16px;
-}
-.card-2 {
-  width: 50%;
-
-  padding: 50px;
-  display: flex;
-  flex-direction: column;
-  gap: 20px;
-  background: rgba(41, 206, 246, 0.05);
-  border-radius: 16px;
-}
-
-.card-1 img {
+ }
+ .chose-card-content img{
   width: 10%;
-}
-.card-2 img {
-  width: 10%;
-}
-.choose-cards-2 .card-1 {
-  margin: 0 auto;
-  background: rgba(233, 68, 68, 0.05);
-}
+ }
 /* deals and discount styles */
 .deals {
+  
   width: 81%;
   max-width: 1170px;
   margin: 0 auto;
@@ -429,6 +443,7 @@ text-align: left;
 }
 .deals .deals-text h1 {
   color: #131318;
+  margin-top: 100px;
 
   text-align: center;
 
@@ -622,6 +637,7 @@ text-align: left;
   flex-direction: column;
   gap: 30px;
   background: rgba(233, 68, 68, 0.05);
+  box-shadow: 0px 25px 20px -20px rgba(0, 0, 0, 0.45), 25px 0 20px -20px rgba(0, 0, 0, 0.45);
 }
 .guide-card-text{
   height: 50%;
