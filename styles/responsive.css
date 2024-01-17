@@ -129,20 +129,46 @@
   .video-text {
     width: 100%;
   }
-  .newsletter {
+  .newshelter{
     flex-direction: column;
+    gap: 20px;
   }
-  .subscribe,
-  .save-up {
+  .subscribe, .save-up{
     width: 100%;
   }
-  .save-up {
-    height: 300px;
+  .save-up .poster{
+    position: absolute;
+    background-color: #FF5400;
+    font-size: 1rem;
+    border-radius: 10px;
+    text-align: center;
+    color: white;
+    padding: 10px;
+    left: 150px;
+    top: 110px;
+    transform: rotate(-35deg);
   }
+  .poster h1{
+    font-size: 1rem;
+  }
+
   .footer-title,
   .footer-pera,
   .footer-icon-div,
   .copy {
     width: 80%;
+  }
+  .guide-text h1{
+    font-size: 1.5rem;
+  }
+  .texts h1{
+    font-size: 1.5rem;
+    margin-top: 30px;
+  }
+  .footer-title h1{
+    font-size: 1.5rem;
+  }
+  .subscribe{
+    width: 95%;
   }
 }

@@ -683,96 +683,68 @@ margin-bottom: 5px;
   border-radius: 10px 10px 0 0;
 }
 /* newsleter style start here */
-.newsletter{
+.newshelter{
   width: 81%;
   max-width: 1170px;
   margin: 0 auto;
-  /* border: 1px solid  blue; */
+ 
   display: flex;
-  gap: 24px;
+  justify-content: space-between;
   margin-bottom: 100px;
-}
-.save-up{
-  width: 65%;
-  /* border: 1px solid  rgb(32, 186, 21); */
-  /* position: relative; */
-  background-image: url('../images/Rectangle\ 8\ \(1\).png');
-  border-radius: 15px;
-  background-repeat: no-repeat ;
-  background-size: cover;
-  display: flex;
-  align-items: end;
-  justify-content: end;
-  padding-bottom: 50px;
-}
-.poster{
-  /* position: absolute; */
-  /* display: flex; */
-  /* flex-direction: column; */
-  /* left: 500px; */
-  /* bottom: 50px; */
-  width: 200px;
-  padding: 10px;
-  background: #ff5400;
-  border-radius: 10px;
-  transform: rotate(-25deg);
-  align-items: start;
   
-
-}
-.poster h4,p{
-  text-align: center;
-  color: white;
-}
-.save-up img{
-  width: 100%;
-  border-radius: 15px;
-  display: flex;
-  align-items: end;
 }
 .subscribe{
   width: 35%;
-  border: 1px solid #FF5400;
-  padding: 20px;
+  padding: 2%;
+  
   border-radius: 15px;
-  display: flex;
-  flex-direction: column;
-  gap: 35px;
+  border-radius: 16px;
+border: 1px solid #FF5400;
+  
 }
-.subscribe h2{
+.subscribe h1{
   color: #131318;
-
-
-font-size: 1.5rem;
+font-family: Mulish;
+font-size: 24px;
 font-style: normal;
 font-weight: 800;
 line-height: normal;
 }
 .subscribe p{
   color: #5A5A5D;
-
-
-font-size: 1rem;
-
+font-family: Mulish;
+font-size: 16px;
+font-style: normal;
 font-weight: 400;
-
+line-height: 26px; /* 162.5% */
 }
-.subscribe input[type=text]{
-  display: block;
-  background: rgba(19, 19, 24, 0.05);
-
+.subscribe input{
+  padding: 15px 0;
   border-radius: 10px;
-  border: none;
-  padding: 15px;
-}
-.subscribe input[type=email]{
+  border: 0;
+  padding-left: 20px;
+  margin-bottom: 20px;
   background: rgba(19, 19, 24, 0.05);
 
 
-  display: block;
+}
+.save-up{
+  width: 50%;
+  position: relative;
+}
+.save-up .poster{
+  position: absolute;
+  background-color: #FF5400;
   border-radius: 10px;
-  border: none;
-  padding: 15px;
+  text-align: center;
+  color: white;
+  padding: 10px;
+  left: 350px;
+  top: 210px;
+  transform: rotate(-35deg);
+}
+.save-up img{
+  width: 100%;
 }
 /* footer section styles */
 footer{
